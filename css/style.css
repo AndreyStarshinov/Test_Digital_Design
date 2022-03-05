@@ -2,13 +2,6 @@ html {
     font-family: 'Open Sans', sans-serif;
 }
 
-body {
-    margin: 0;
-    background: url(/img/js.png), rgba(255,255,255, 0.95);
-    background-blend-mode: color;
-    background-size: 100px 100px;
-}
-
 img {
     display: block;
     margin: 0 auto;
