@@ -1,0 +1,108 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    background: url(/img/js.png), rgba(255,255,255, 0.95);
+    background-blend-mode: color;
+    background-size: 100px 100px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 500px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+li {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.26px;
+}
+
+.container {
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: white;
+}
+
+.text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.26px;
+}
+
+.heading {
+    margin-top: 70px;
+}
+
+.topbutton {
+    width:100px;
+    border:2px solid #ccc;
+    background:#f7f7f7;
+    text-align:center;
+    padding:10px;
+    position:fixed;
+    bottom:30px;
+    right:60px;
+    cursor:pointer;
+    color:#333;
+    font-family:verdana;
+    font-size:12px;
+    border-radius: 5px;
+    }
+
+    .discription {
+        margin-top: 40px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+
+    @media (max-width:320px) {
+        .text {
+            font-size: 16px;
+            line-height: 20px;
+         }
+         .container {
+            padding-right: 20px;
+            padding-left: 20px;
+            background-color: white;
+        }
+        .heading {
+            margin-top: 40px;
+        }
+        li {
+            font-size: 16px;
+            line-height: 20px;
+        }
+        .topbutton {
+            width:70px;
+            bottom:20px;
+            right:0px;
+            }
+        figcaption {
+            font-size: 12px;
+            line-height: 10px;
+        }
+        figure {
+            margin: 0;
+        }
+    }
